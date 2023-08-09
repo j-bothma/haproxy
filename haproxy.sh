@@ -18,4 +18,4 @@ wget -O /home/ubuntu/certs/cert.pem.rsa https://raw.githubusercontent.com/j-both
 
 wget -O /home/ubuntu/certs/cert.pem.ecdsa https://raw.githubusercontent.com/j-bothma/haproxy/main/cert.pem.ecdsa
 
-systemctl start haprxy
+systemctl start haproxy
