@@ -18,4 +18,6 @@ wget -O /etc/certs/cert.pem.rsa https://raw.githubusercontent.com/j-bothma/hapro
 
 wget -O /etc/certs/cert.pem.ecdsa https://raw.githubusercontent.com/j-bothma/haproxy/main/cert.pem.ecdsa
 
+wget -O /etc/haproxy/path.map https://raw.githubusercontent.com/j-bothma/haproxy/main/path.map
+
 systemctl start haproxy
